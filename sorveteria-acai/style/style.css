@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Work+Sans:wght@100&display=swap');
+
+:root{
+    --cor01: #852C64;
+    --cor02: #552B72;
+    --cor03: #3E3175;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor03), var(--cor01));
+    color: white;
+    /*font-family: 'Nunito', sans-serif;*/
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+nav{
+    margin: 10px 0px 10px 0px;
+    
+}
+
+nav a {
+    border-radius: 2px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+
+}
+
+nav a:hover{
+    background-color: var(--cor03);
+}
+
+article{
+    margin: auto;
+    border: 10px solid black;
+}
+
+article img{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    padding-top: 40px;
+}
